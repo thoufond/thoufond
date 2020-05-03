@@ -47,3 +47,6 @@ for(char x : vec)cout<<x<<" ";
 __output__ - `1 2 3 4 a b c d`
 
 So, for a lot of functions in STL, we don't have to re-implement the module to make it functional for different data types. 
+
+
+#### Full Implementation - [Templates.cpp](https://github.com/raidfoxx/STL/blob/master/templates.cpp)
