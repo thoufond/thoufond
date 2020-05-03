@@ -1,8 +1,8 @@
 # Templates 
   
-  Templates enable us to write generic functions. That means you don't have to care about the type of data you'll be passing in the arguments. This makes our code reusable. For e.g,  if you wanted to write a sort function for numbers as well as characters you can make a sorting function that'll accept any data type.
+Templates enable us to write generic functions. That means you don't have to care about the type of data you'll be passing in the arguments. This makes our code reusable. For e.g,  if you wanted to write a sort function for numbers as well as characters you can make a sorting function that'll accept any data type.
 
-### Genric Function for swapping two variables 
+### Generic Function for swapping two variables 
 
 ```c++
 template <class T> 
@@ -15,7 +15,7 @@ void swap1( T &a, T &b) {
 }
 ```
 
-So it doesn't matter if you call the function with arguments of different data type ,say `char , int , double` it will do the swapping without any error.
+So it doesn't matter if you call the function with arguments of different data type, say `char, int, double` it will do the swapping without any error.
 
 ### Bubblesort Genric function
 
@@ -46,4 +46,4 @@ for(char x : vec)cout<<x<<" ";
 
 __output__ - `1 2 3 4 a b c d`
 
-So, for a lot of functions in STL we don't have to re-implement the module to make it functional for different data types. 
+So, for a lot of functions in STL, we don't have to re-implement the module to make it functional for different data types. 
