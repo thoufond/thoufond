@@ -17,7 +17,7 @@ void swap1( T &a, T &b) {
 
 So it doesn't matter if you call the function with arguments of different data type, say `char, int, double` it will do the swapping without any error.
 
-### Bubblesort Genric function
+### Bubblesort Generic function
 
 ```c++
 template< class T>
