@@ -5,7 +5,7 @@ You can do arithmetic operations on the iterators.
 ### Initializing vector
 
 ```c++
-int n = 4, int m =4
+int n = 4, int m =4;
 std::vector<int> v(n,m);             // n times m, 4 times integer 4 in vector
 std::vector<int> v1 = {1,2,3,4};                    
 std::vector<int> v2(v1);             // make a copy of v1
