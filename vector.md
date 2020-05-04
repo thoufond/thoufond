@@ -121,5 +121,4 @@ __Implementation__
     Present
     */
 ```
-
-
+__Full Implementation__ - [Vector.cpp](https://github.com/raidfoxx/STL/blob/master/vector.cpp)
