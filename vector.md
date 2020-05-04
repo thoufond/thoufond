@@ -14,7 +14,7 @@ std::vector<int> v2(v1);             // make a copy of v1
 ###  Iterators
 
 * `begin()` - Returns iterator pointing to beginning of the vector i.e first element.
-* `end()` -  Returns an iterator pointing to the end of the vector i.e last element.
+* `end()` -  Returns an iterator referring to the past-the-end element in the vector container.
 * `rbegin()` - Returns reverse iterator to the reverse beginning.
 * `rend()` - Return reverse iterator to the revese end.
 * `cbegin()` - Return const_iterator to beginning.
